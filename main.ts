@@ -16,7 +16,7 @@ namespace OC06 {
     let REVERSE = 0x01
     let NUM_STEPS = 200
 
-    enum DIRECTION {
+    export enum DIRECTION {
         //% block=FORWARD
         FORWARD = 0,
         //% block=REVERSE
@@ -91,7 +91,8 @@ namespace OC06 {
     }
 
     //% blockId="move"
-    //% block="OC06 move steps %steps with speed %speed %dir"
+    //% dir.defl=DIRECTION.FORWARD
+    //% block="OC06 move %dir %steps steps with speed %speed"
     export function move(steps: number, speed: number, dir: DIRECTION) {
         let delay_time: number
         let STEPS_PER_REV: number
