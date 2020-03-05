@@ -93,7 +93,7 @@ namespace OC06 {
     //% blockId="move"
     //% dir.defl=DIRECTION.FORWARD
     //% block="OC06 move %dir %steps steps with speed %speed"
-    export function move(steps: number, speed: number, dir: DIRECTION) {
+    export function move(dir: DIRECTION, steps: number, speed: number) {
         let delay_time: number
         let STEPS_PER_REV: number
 
