@@ -1,7 +1,7 @@
 {
   "name": "OC06",
   "version": "0.0.7",
-  "description": "",
+  "description": "XinaBox OC05 Stepper Controller",
   "dependencies": {
     "core": "*"
   },
